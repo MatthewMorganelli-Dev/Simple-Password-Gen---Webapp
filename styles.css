@@ -1,0 +1,80 @@
+#mainAction{
+    width: 700px;
+    height: 700px;
+    background: #181818;
+    color: #aaaaaa;
+    margin: 15px auto;
+    border-radius: 15px;
+    border-bottom: 10px #98FF98 solid;
+    border-right: 10px #98FF98 solid;
+}
+body{
+    background-color: #212121;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    
+    
+}
+#actionAction{
+align-items: start;
+display: flex;
+flex-direction: column;
+
+
+}
+#actionText{
+margin-left: 100px;
+margin-top: 50px;
+}
+.textChange{
+    color: #98FF98;
+}
+#actionInteract{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#generateButton{
+    padding: 10px 12px;
+    color: #aaaaaa;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background: #98FF98;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+
+}
+#actionDivider{
+    width: 75%;
+    height: 10px;
+    background: #98FF98;
+    border-radius: 15px;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+
+}
+#actionOptions{
+
+display: flex;
+justify-content: space-around;
+margin: 10px auto;
+}
+.optionButton{
+border-radius: 15px;
+border: 5px solid #98FF98;
+background: #212121;
+color: #aaaaaa;
+width: 200px;
+height: 40px;
+font-family: Helvetica, sans-serif;
+padding: 2px;
+text-align: center;
+
+margin-right: 50px;
+margin-left: 50px;
+
+
+
+font-size: large;
+}
